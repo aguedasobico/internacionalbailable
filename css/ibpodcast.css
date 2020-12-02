@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'ode';
+  src: url('fonts/bebas/bebasneue_light.otf') format('opentype');
+}
+
+#body_index {
+  font-family: ode;
+  height: 1200px;
+
+}
+#contenedor {
+	height: 1200px;
+}
+
+#header {
+  height:420px;
+}
+
+#caja_logo{
+	height: 120px;
+}
+
+#logo {
+  height: 80px;
+  margin-top: 40px;
+	margin-left: 3%;
+}
+
+#lista_header {
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 17%;
+  display: inline;
+}
+
+#lista_header li {
+  display: inline-block;
+}
+
+#lista_header li a {
+  text-decoration: none;
+  color:#0099ff;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-right: 20px;	
+  font-weight: bolder;
+  text-shadow: 0px 0px #0099ff,
+               0px 0px #0099ff;
+  position: relative;
+  transition-property: text-shadow;
+  transition-duration: 500ms;
+}
+
+#lista_header li a:hover {
+  transition-property: text-shadow;
+  transition-duration: 500ms;
+  text-shadow: 2px 3px  #ff3333,
+               3px 4px #00ff00;
+}
+
+#agenda {
+  height: 60px;
+  background-color: #ffff00;
+  font-weight: bold;
+  box-shadow: 3px 3px 3px #3399ff;
+}
+ #texto_movimiento {
+   font-family: arial;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   color: #ff3333;
+   font-size: 30px;
+ }
+
+#cuerpo_ibpodcast{
+	padding-top:20px;
+	height: 700px;
+}
+#post_ibpodcast{
+	margin-top: 40px;
+	margin-left:20px;
+	margin-right: 20px;
+}
+
+#post1_ibpodcast_audio{
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+#post2_ibpodcast_audio{
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+#post3_ibpodcast_audio{
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+#post4_ibpodcast_audio{
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+#post5_ibpodcast_audio{
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+#post6_ibpodcast_audio{
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+#post7_ibpodcast_audio{
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+#post8_ibpodcast_audio{
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+#post9_ibpodcast_audio{
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+#post10_ibpodcast_audio{
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+#post11_ibpodcast_audio{
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+#post12_ibpodcast_audio{
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+#footer {
+  background-color: rgba(0,0,0,0);
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+#lista_redes {
+  display: inline;
+  height: 100px;
+	width: 100%;
+  margin-bottom: 50px;
+  margin-left: auto;
+	margin-right: auto;
+}
+
+#lista_redes li {
+  display: inline-block;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+#lista_redes li a {
+  text-decoration: none;
+  color:#ff3333;
+  font-size: 120px;
+  font-weight: bold;
+  position: relative;
+}
+
+#instagram {
+  color:#ff3333;
+}
+#youtube {
+  color: #44cc00;
+}
+#soundcloud {
+  color:#0099ff;
+}
+#twitch {
+  color:#ffff00;
+}

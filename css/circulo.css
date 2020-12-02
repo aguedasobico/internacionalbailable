@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+
+/*body {
+  height: 100vh;
+  width: 100vw;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Anonymous Pro", "Monospace";
+  font-size: 30px;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}*/
+#fondocircular{
+	margin-top: 50px;
+	width: 180px;
+	height: 200px;
+}
+#circular-text {
+  position: relative;
+  font-family: 'helveticaneue';
+  font-size: 15px;
+  font-weight: bolder;
+  background: -webkit-radial-gradient(center, rgba(0, 255, 255, 0.8) 0%, rgba(0, 77, 77, 0.4) 15%, rgba(0, 26, 26, 0) 55%);
+  color: #fff;
+  height: 200px;
+  border-radius: 100%;
+  box-shadow: 0 0 30px rgba(4, 4, 4, 0.15);
+}
+
+/*#circular-text a{
+  position: relative;
+  font-family: 'helveticaneue';
+  font-size: 15px;
+  font-weight: bolder;
+  background:  rgba(0, 0, 0, 0);
+  color: #fff;
+  height: 200px;
+  border-radius: 100%;
+  box-shadow: 0 0 30px rgba(4, 4, 4, 0.15);
+}*/
+
+
+#circular-text span {
+  position: absolute;
+  transform-origin: top left;
+}

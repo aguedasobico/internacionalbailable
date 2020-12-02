@@ -1,0 +1,215 @@
+@font-face {
+  font-family: 'ode';
+  src: url('fonts/bebas/bebasneue_light.otf') format('opentype');
+}
+
+#body_index {
+  font-family: 'helveticaneue';
+  height: 1500px;
+  background-image: url("../images/telanegra.png");
+  /*background: -webkit-radial-gradient(top, #C0C0C0 5%, black 25%)*/
+}
+
+#header {
+  height:400px;
+  background: -webkit-radial-gradient(top, rgba(0, 255, 255, 0.4) 0%, rgba(0, 77, 77, 0.4) 15%, rgba(0, 26, 26, 0) 55%);
+  margin-bottom: 20px;		  
+}
+
+#caja_logo{
+	height: 120px;
+}
+
+#logo {
+  height: 80px;
+  margin-top: 40px;
+}
+
+#lista_header {
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 17%;
+  display: inline;
+}
+
+#lista_header li {
+  display: inline-block;
+}
+
+#lista_header li a {
+    text-decoration: none;
+    color: rgba(10, 183, 10, 0.3);
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bolder;
+    text-shadow: 0px 0px rgba(10, 183, 10, 0.3),
+               0px 0px rgba(10, 183, 10, 0.3);
+    position: relative;
+    transition-property: text-shadow;
+    transition-duration: 500ms;
+}
+
+#lista_header li a:hover {
+  transition-property: text-shadow;
+  transition-duration: 500ms;
+  text-shadow: 1px 2px red,
+               2px 3px #0099ff;
+}
+
+#agenda {
+  height: 60px;
+  background-color: #ffff00;
+  font-weight: bold;
+  box-shadow: 3px 3px 3px #3399ff;
+}
+ #texto_movimiento {
+   font-family: 'century-gothic';
+   margin-top: 10px;
+   color: #ff3333;
+   font-size: 30px;
+ }
+
+#inicio {
+  height: 1030px;
+  margin-top: 20px;
+}
+
+#cuerpo {
+  height:1230px;
+}
+
+#myCarousel{
+	height: 600px;
+}
+#main_slider {
+  height:600px;
+  margin-left: 0px;
+}
+
+#caja_fotos{
+	width:100%;
+}
+
+#foto_uno {
+	margin-top:8%;
+	margin-left:35%;
+}
+
+#foto_dos{
+	margin-top: 3%;
+}
+#cuadrado1{
+	margin-left: 6%;
+	height:700px;
+	width: 40px;
+	background-color: rgba(229,18,21,0.78);
+}
+#cuadrado2{
+	margin-top:12%;
+	height:400px;
+	width: 1900px;
+	background-color: rgba(224,195,0,0.74);
+}
+#cuadrado3{
+	margin-top: 0px;
+	margin-left: 77%;
+	height:700px;
+	width: 100px;
+	background-color: rgba(18,252,0,0.78);
+}
+#cuadrado4{
+	margin-top:5%;
+	margin-left:18%;
+	height:400px;
+	width: 400px;
+	background-color: rgba(0,29,255,0.80);
+}
+#cuadrado5{
+	margin-top:8%;
+	margin-left:55%;
+	height:500px;
+	width: 550px;
+	background-color: rgba(244,75,0,0.85);
+}
+
+#foto_tres {
+	margin-top:12%;
+}
+
+#foto_cuatro{
+	margin-top: 3%;
+	margin-left: 77%;
+}
+
+#foto_cinco {
+	margin-top:5%;
+	margin-left:18%;
+}
+#texto_presentacion {
+    height: 225px;
+    margin-top: 10%;
+    margin-left: 5%;
+    border: 3px solid rgba(104, 131, 253, 0.5);
+    margin-right: 5%;
+	margin-bottom: 12%;
+}
+
+#texto_intro {
+    
+    font-size: 20px;
+    font-weight: lighter;
+    height: 195px;
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 1%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(217, 217, 217);
+    font-style: normal;
+}
+
+
+#footer {
+  background-color: rgba(0,0,0,0);
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#lista_redes {
+  display: inline;
+  height: 100px;
+	width: 100%;
+  margin-bottom: 50px;
+  margin-left: auto;
+	margin-right: auto;
+}
+
+#lista_redes li {
+  display: inline-block;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+#lista_redes li a {
+  text-decoration: none;
+  color:#ff3333;
+  font-size: 120px;
+  font-weight: bold;
+  position: relative;
+}
+
+#instagram {
+  color:rgb(255, 26, 26);
+}
+#youtube {
+  color:rgb(10, 183, 10);
+}
+#soundcloud {
+  color:rgb(0, 102, 255);
+}
+#twitch {
+  color:rgb(255, 204, 0);
+}

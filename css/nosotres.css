@@ -1,0 +1,241 @@
+@font-face {
+  font-family: 'ode';
+  src: url('fonts/bebas/bebasneue_light.otf') format('opentype');
+}
+
+#body_todes {
+  font-family: ode;
+  height: 1550px;
+
+}
+#contenedor {
+	height: 1500px;
+}
+
+#header {
+  height:420px;
+}
+
+#caja_logo{
+	height: 120px;
+}
+
+#logo {
+  height: 80px;
+  margin-top: 40px;
+	margin-left: 3%;
+}
+
+#lista_header {
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 17%;
+  display: inline;
+}
+
+#lista_header li {
+  display: inline-block;
+}
+
+#lista_header li a {
+  text-decoration: none;
+  color:#0099ff;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-right: 20px;	
+  font-weight: bolder;
+  text-shadow: 0px 0px #0099ff,
+               0px 0px #0099ff;
+  position: relative;
+  transition-property: text-shadow;
+  transition-duration: 500ms;
+}
+
+#lista_header li a:hover {
+  transition-property: text-shadow;
+  transition-duration: 500ms;
+  text-shadow: 2px 3px  #ff3333,
+               3px 4px #00ff00;
+}
+
+#agenda {
+  height: 60px;
+  background-color: #ffff00;
+  font-weight: bold;
+  box-shadow: 3px 3px 3px #3399ff;
+}
+ #texto_movimiento {
+   font-family: arial;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   color: #ff3333;
+   font-size: 30px;
+ }
+body_todes {
+  ode: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+}
+
+#inicio_todes {
+  height: 1300px;
+  margin-top: 50px;
+}
+
+#foto_todes{
+	margin-bottom: 50px;
+}
+
+#todes{
+	height: 500px;
+	width:100%;
+}
+
+#card_todes {
+  padding-left:auto;
+  padding-right: auto;
+  padding-top:200px;
+}
+
+#titulo_card_todes {
+  padding-left: auto;
+  padding-top: auto;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+#sub_card_todes{
+  padding-left: auto;
+  padding-top: auto;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+#caja_todes{
+	height: 500px;
+	background-color: black;
+	margin-bottom: 60px;	
+}
+
+#caja_perfiles{
+	margin-top: 50px;
+	margin-left: 5%;
+}
+
+#tarjeta_triana{
+	height: 600px;
+	background-color: black;
+	border-style: none;
+}
+
+#id_foto1{
+	height: 600px;
+	border-style: none;
+}
+
+#tarjeta_giskard{
+	height: 600px;
+	background-color: black;
+}
+
+#id_foto2{
+	height: 600px;
+}
+
+#tarjeta_tosigo{
+	height: 600px;
+	background-color: black;
+}
+
+#id_foto3{
+	height: 600px;
+}
+
+#tarjeta_fedra{
+	height: 600px;
+	background-color: black;
+}
+
+#id_foto4{
+	height: 600px;
+}
+
+#tarjeta_tobey{
+	height: 600px;
+	background-color: black;
+}
+
+#id_foto5{
+	height: 600px;
+}
+
+#tarjeta_oli{
+	height: 600px;
+	background-color: black;
+}
+
+#id_foto6{
+	height: 600px;
+}
+
+#tarjeta_nlojoya{
+	height: 600px;
+	background-color: black;
+}
+
+#id_foto7{
+	height: 600px;
+}
+
+#tarjeta_agueda{
+	height: 600px;
+	background-color: black;
+}
+
+#id_foto8{
+	height: 600px;
+}
+
+#footer {
+  background-color: rgba(0,0,0,0);
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+#lista_redes {
+  display: inline;
+  height: 100px;
+	width: 100%;
+  margin-bottom: 50px;
+  margin-left: auto;
+	margin-right: auto;
+}
+
+#lista_redes li {
+  display: inline-block;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+#lista_redes li a {
+  text-decoration: none;
+  color:#ff3333;
+  font-size: 120px;
+  font-weight: bold;
+  position: relative;
+}
+
+#instagram {
+  color:#ff3333;
+}
+#youtube {
+  color: #44cc00;
+}
+#soundcloud {
+  color:#0099ff;
+}
+#twitch {
+  color:#ffff00;
+}
