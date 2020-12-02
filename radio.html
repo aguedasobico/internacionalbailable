@@ -80,25 +80,30 @@
 }
 </style>
 <body id="body_index" style="background-color:black;">
-  <div class="container-fluid" id="contenedor_radio">
-   <header class="row" id="header">
-      <div class="col-sm-7 offset-4 rounded"  id="caja_logo">
+  <div class="container-fluid" id="contenedor">
+    <header class="row" id="header">
+      <div class="col-sm-6 offset-4 rounded"  id="caja_logo">
         <a href="index.html">
           <img class="img-fluid" src="imagenes/internacionalbailablelogo5.png" id="logo" alt="logo">
         </a>
       </div>
+	  <div id="fondocircular" class="col-sm-2">
+		  <input type="button" id="circular-text" onClick="location.href='radio.html'" value="click here">
+		  <!--<div id="circular-text">próximas fechas&nbsp;</div>-->
+	  </div> 
+	  <script src="js/circulo.js"></script>
       <nav class="col-sm-12 navbar navbar-default" id="lista_header">	
           <ul class="row" id="primera_linea">
-            <li class="col-sm-2" id="boton_blog"><a href="blog.html">BLOG</a></li>
-            <li class="col-sm-2" id="boton_radio"><a href="radio.html">RADIO</a></li>
-            <li class="col-sm-2" id="boton_video"><a href="video.html">VIDEO</a></li>	  
-			<li class="col-sm-2" id="boton_historia"><a href="historia.html">HISTORIA</a></li>
-            <li class="col-sm-2" id="boton_nosotres"><a href="quienessomos.html">NOSOTRES</a></li>
+            <li class="col-sm-2" id="boton_blog"><a href="blog.html">blog</a></li>
+            <li class="col-sm-2" id="boton_radio"><a href="radio.html">radio</a></li>
+            <li class="col-sm-2" id="boton_video"><a href="video.html">video</a></li>	  
+			<li class="col-sm-2" id="boton_historia"><a href="historia.html">historia</a></li>
+            <li class="col-sm-2" id="boton_nosotres"><a href="quienessomos.html">nosotres</a></li>
           </ul>
       </nav>
-      <div class="col-sm-12" id="agenda">
+      <!--<div class="col-sm-12" id="agenda">
          <marquee id="texto_movimiento">PROXIMAS FECHAS VIRTUALES EN LA ERA DEL FIN</marquee>
-      </div>
+      </div>-->
     </header>
     <section class="row" id="inicio_radio">
       <ul class="col-sm-12 list-group" id="lista_podcast">
